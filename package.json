@@ -1,0 +1,38 @@
+{
+  "name": "keymaster",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.0.7",
+    "random-words": "^1.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.6.1",
+    "styled-components": "^5.3.6",
+    "zustand": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.29.0",
+    "eslint-config-next": "13.0.7",
+    "typescript": "4.9.4"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/historyfirstswedeanddanecollaboration/keymaster.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/historyfirstswedeanddanecollaboration/keymaster/issues"
+  },
+  "homepage": "https://github.com/historyfirstswedeanddanecollaboration/keymaster#readme"
+}
