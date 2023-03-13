@@ -3,7 +3,7 @@ import { use, useEffect, useState } from 'react';
 const Leaderboard = () => {
   const [posts, setPosts] = useState([]);
   useEffect(() => {
-    fetch('http://localhost:2000/api/leaderboard', {
+    fetch('https://22i0ulr0k4.execute-api.eu-north-1.amazonaws.com/staging/api/leaderboard', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
